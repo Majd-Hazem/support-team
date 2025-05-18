@@ -1,0 +1,115 @@
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: linear-gradient(to bottom, #22c55e, #16a34a);
+    color: white;
+    padding: 1.5rem 1rem;
+    box-shadow: 2px 0 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    overflow-y: auto;
+  }
+  
+  .sidebar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #d1fae5; /* أخضر فاتح */
+    margin-bottom: 2rem;
+    text-align: center;
+    border-bottom: 2px solid #f2d416;
+    padding-bottom: 0.5rem;
+  }
+  
+  .sidebar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* ✅ القائمة الرئيسية */
+  .menu-header {
+    background-color: #065f46;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.4rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .menu-header:hover {
+    background-color: #047857;
+  }
+  
+  /* ✅ القوائم الفرعية */
+  .submenu {
+    list-style: none;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+    border-right: 2px solid #bbf7d0;
+  }
+  
+  .submenu li {
+    margin: 0.4rem 0;
+  }
+  
+  .submenu a {
+    text-decoration: none;
+    color: #d1fae5;
+    font-size: 0.95rem;
+    transition: color 0.2s;
+  }
+  
+  .submenu a:hover,
+  .submenu a.active {
+    color: #ffffff;
+    font-weight: bold;
+  }
+  /* تعديل زر القائمة الرئيسية */
+.menu-header {
+    background-color: #065f46;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    text-align: right;
+    display: block;
+  }
+  
+  /* عناصر القائمة الفرعية */
+  .submenu {
+    list-style: none;
+    padding: 0.25rem 1rem;
+    margin-bottom: 1rem;
+    border-right: 2px solid #bbf7d0;
+    transition: all 0.3s ease;
+  }
+  
+  .submenu li {
+    margin: 0.6rem 0;
+    white-space: nowrap;
+  }
+  
+  .submenu a {
+    text-decoration: none;
+    color: #d1fae5;
+    font-size: 0.95rem;
+    display: inline-block;
+    width: 100%;
+    transition: all 0.2s ease;
+  }
+  
+  .submenu a:hover,
+  .submenu a.active {
+    color: #ffffff;
+    font-weight: bold;
+    transform: translateX(-5px);
+  }
+  

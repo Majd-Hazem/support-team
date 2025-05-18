@@ -1,0 +1,22 @@
+.service-info-box {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+  }
+  
+  .service-info-box h3 {
+    margin-bottom: 1rem;
+    color: #1fa12e;
+  }
+  
+  .service-info-box ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .service-info-box li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+  }
+  

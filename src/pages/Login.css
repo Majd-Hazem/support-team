@@ -1,0 +1,91 @@
+/* حذف الهوامش الافتراضية وتثبيت الحاوية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Cairo', sans-serif;
+  }
+  
+  
+  /* حاوية الصفحة */
+  .login-page {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(135deg, #a8f0c6, #34d399); /* تدرج أنيق */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* صندوق تسجيل الدخول */
+  .login-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  /* عنوان */
+  .login-box h2 {
+    margin-bottom: 1.5rem;
+    color: #059669;
+    font-size: 1.6rem;
+  }
+  
+  /* الحقول */
+  .login-box input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #eef3ff;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+  }
+  
+  .login-box input:focus {
+    outline: none;
+    border-color: #10b981;
+  }
+  
+  /* زر الدخول */
+  .login-box button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #10b981;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .login-box button:hover {
+    background-color: #059669;
+  }
+  
+  /* حركة دخول */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

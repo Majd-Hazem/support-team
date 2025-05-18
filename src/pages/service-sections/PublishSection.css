@@ -1,0 +1,35 @@
+.publish-box {
+    background-color: #fefefe;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    text-align: right;
+  }
+  
+  .publish-box h3 {
+    color: #1fa12e;
+    margin-bottom: 1rem;
+  }
+  
+  .publish-box button {
+    background-color: #1fa12e;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: 0.3s;
+  }
+  
+  .publish-box button:hover {
+    background-color: #157c25;
+  }
+  
+  .status-msg {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: #444;
+  }
+  
