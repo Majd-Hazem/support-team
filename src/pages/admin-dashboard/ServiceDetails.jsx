@@ -72,6 +72,7 @@ const ServiceDetails = () => {
         setMainServiceName(mainRes.data.name_Serves);
 
         const Branch_Serves = res.data.branch_Server_Id;
+        console.log("this is ehat " + res.data.branch_Server_Id);
 
         const subRes = await axios.get(
           `http://eallaenjazapi.runasp.net/api/Branch_Serves/GET_BRANCH_SERVES_BY_ID${Branch_Serves}`
